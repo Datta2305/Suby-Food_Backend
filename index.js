@@ -32,7 +32,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 })
 
-app.use('/home', (req, res)=>{
+app.use('/', (req, res)=>{
     res.send("<h1> Welcome to SUBY")
 })
 // app.use('/vendor/register', (req, res)=>{
